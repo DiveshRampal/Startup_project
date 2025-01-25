@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup project</title>
+</head>
+<style>
+.intro {
+ display:flex;
+padding:20px;
+ justify-content: space-between;
+ color:white;
+}
+body{
+    background-color: black;
+    margin: 10px;
+    padding:10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color:darkgoldenrod;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    background-color: darkgoldenrod;
+    padding:15px;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo:hover{background-color: aqua;}
+.link{
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+    gap:10px;
+    justify-content: right;
+
+}
+button{background-color:darkgoldenrod;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width:100px;
+    font-size:small;
+    color:black;
+    cursor: pointer;
+}   
+
+h2{
+    color:darkgoldenrod;
+}
+
+
+ button:hover {
+  background-color: red;
+}
+
+input{
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    width:80%;
+    outline:none;
+    border: 1px solid black;
+
+}
+input:hover{
+  border:blue;
+}
+
+.Table-section{ background-color:black;
+                color:darkgoldenrod;
+                text-align: center;
+               margin: 10%;
+               width: 1000px;
+}
+
+
+tr,td,th{border: 1px solid darkgoldenrod;
+    border-collapse: collapse;
+   
+}
+
+tfoot{ background-color:darkgoldenrod;}
+a{color: black;
+
+}
+</style>
+
+    <nav class="navbar">
+    <div class="logo">
+        Startup Logo
+        </div>
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+</nav>
+<section id="intro" class="intro">
+  <div class="text-content">
+    <h1>Welcome to Our Website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>Login</button>
+  </div>
+  <div class="image-content">
+    <img src="https://image.cnbcfm.com/api/v1/image/105815446-1553624918736gettyimages-1078542150.jpeg?v=1612303414" width="150px" height="150" alt="Jeff Bezos">
+  </div>
+</section class="contract">
+<h2 class="contact-us">Contact Us</h2>
+<form method="post">
+    <input type="text" placeholder="Enter Your Name" required><br>
+    <input type="email" placeholder="Enter Your Email" required><br>
+    <input type="number" placeholder="Enter Your mobile" required><br>
+    <input type="text" placeholder="Enter Your City" required><br>
+    <button type="submit">Submit Form</button>
+    </form>
+    </section>
+    <section class="Table-section">
+<table>
+<thead>
+    <tr>
+        <th>SNo.</th>
+        <th>Startup Name</th>
+        <th>Startup Description</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+    <td>1.</td>
+    <td>Wow India</td>
+    <td>A Startup with WOW ideas.</td>
+    </tr>
+    <tr>
+    <td>2.</td>
+    <td>Loreum ipsum</td>
+    <td>Loreum ipsum Text</td>
+    </tr>
+    <tr>
+        <td>2.</td>
+        <td>Loreum ipsum</td>
+        <td>Loreum ipsum Text</td>
+        </tr>
+    <tr><td>2.</td>
+        <td>Loreum ipsum</td>
+        <td>Loreum ipsum Text</td>
+        </tr>
+    <tr><td>2.</td>
+        <td>Loreum ipsum</td>
+        <td>Loreum ipsum Text</td>
+        </tr>
+    <tr><td>2.</td>
+        <td>Loreum ipsum</td>
+        <td>Loreum ipsum Text</td>
+        </tr>
+        <tr>
+                    <td colspan="3">Table Footer</td>
+                </tr>
+            </tfoot>
+</tbody>
+
+    </table>
+</section>
+
+<body>
+    
+</body>
+</html>
